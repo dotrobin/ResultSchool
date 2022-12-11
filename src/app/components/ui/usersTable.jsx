@@ -33,6 +33,7 @@ const UsersTable = ({
 		complitedMeetings: { path: "completedMeetings", name: "Встретился раз" },
 		rate: { path: "rate", name: "Оценка" },
 		bookmark: {
+			path: "bookmark",
 			name: "Избранное",
 			component: (user) => (
 				<Bookmark
